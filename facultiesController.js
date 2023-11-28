@@ -76,7 +76,7 @@ router.delete('/:id', async (req, res) => {
         if (result.rows.length === 0) {
             res.status(404).json({ error: 'Faculty not found' });
         } else {
-            res.json({ message: 'Faculty deleted' });
+            res.sendStatus(204);
         }
     } catch (error) {
         console.error('Error deleting faculty:', error.message);
