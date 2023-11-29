@@ -58,3 +58,5 @@ Access the application at http://localhost:3000.
     /students: CRUD operations for students
     /faculties: CRUD operations for faculties
     /data: Fetch and save data from an external API
+
+For more detailed API documentation, refer to the [API documentation](https://marko-budimir.github.io/test/#/).
