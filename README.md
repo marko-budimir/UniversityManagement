@@ -26,8 +26,8 @@ Before running the application, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/university-management.git
-   cd university-management
+   git clone https://github.com/your-username/UniversityManagement.git
+   cd UniversityManagement
 2. Install dependencies:
    ```bash
     npm install
@@ -39,7 +39,7 @@ Set up your PostgreSQL database and update the configuration in .env:
     DB_PASSWORD=your_database_password
     DB_HOST=your_database_host
     DB_PORT=your_database_port
-    DB_NAME=university_management
+    DB_DATABASE=university_management
 
 
 ### Database Schema
